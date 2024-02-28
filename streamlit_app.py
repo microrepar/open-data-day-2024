@@ -37,7 +37,7 @@ else:
                 color_discrete_sequence=px.colors.sequential.RdBu)
     st.plotly_chart(fig, use_container_width=True)
 
-    fig = px.pie(df, values='Valor', names='Ano', 
-                title=f'Distribuição de Recursos para os ODS - {df["Ano"].unique()}',
-                color_discrete_sequence=px.colors.sequential.RdBu)
-    st.plotly_chart(fig, use_container_width=True)
+fig = px.pie(df, values='Valor', names='Ano', 
+            title=f'Distribuição de Recursos para os ODS - {df["Ano"].unique()}',
+            color_discrete_sequence=px.colors.sequential.RdBu)
+st.plotly_chart(fig, use_container_width=True)
