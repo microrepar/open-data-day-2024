@@ -31,15 +31,13 @@ if dados.empty:
 else:
     st.dataframe(dados, hide_index=True, use_container_width=True)
 
-    col1, col2 = st.columns(2)
 
-    with col1:
-        fig = px.pie(dados, values='Valor', names='Objetivo', 
-                    title=f'Distribuição de Recursos para os ODS - {dados["Ano"].unique()}',
-                    color_discrete_sequence=px.colors.sequential.RdBu)
-        st.plotly_chart(fig, use_container_width=True)
-    with col2:
-        fig = px.pie(df, values='Valor', names='Ano', 
-                    title=f'Distribuição de Recursos para os ODS - {df["Ano"].unique()}',
-                    color_discrete_sequence=px.colors.sequential.RdBu)
-        st.plotly_chart(fig, use_container_width=True)
+    fig = px.pie(dados, values='Valor', names='Objetivo', 
+                title=f'Distribuição de Recursos para os ODS - {dados["Ano"].unique()}',
+                color_discrete_sequence=px.colors.sequential.RdBu)
+    st.plotly_chart(fig, use_container_width=True)
+
+    fig = px.pie(df, values='Valor', names='Ano', 
+                title=f'Distribuição de Recursos para os ODS - {df["Ano"].unique()}',
+                color_discrete_sequence=px.colors.sequential.RdBu)
+    st.plotly_chart(fig, use_container_width=True)
