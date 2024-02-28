@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "open-data-day-2024"
+version = "0.1.0"
+description = ""
+authors = ["Codata <codata@mogidascruzes.sp.gov.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+selenium = "^4.18.1"
+webdriver-manager = "^4.0.1"
+python-dotenv = "^1.0.1"
+plotly = "^5.19.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
