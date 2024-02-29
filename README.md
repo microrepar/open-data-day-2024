@@ -172,6 +172,7 @@ A instalação deverá ser executada na seguinte ordem:
  - https://www.selenium.dev/
  - https://googlechromelabs.github.io/chrome-for-testing/
  - https://docs.streamlit.io/
+ - https://docs.github.com/pt/codespaces
 
 ## Licença
 MIT license
