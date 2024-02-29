@@ -24,12 +24,9 @@ def get_page_driver(url: str) -> WebDriver:
     """
     options = Options()
     # options.add_argument("--headless")
-    options.add_argument("--start-maximized")
-    options.add_experimental_option('prefs', {        
-        'download.prompt_for_download': True,
-        'download.directory_upgrade': True,
-        'safebrowsing.enabled': True
-    })
+    options.add_argument("--no-sandbox")
+    
+    
 
     # Cria a instancia do ChromeWebDriver
     driver = webdriver.Chrome( 
