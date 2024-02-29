@@ -5,9 +5,9 @@ import plotly.express as px
 import streamlit as st
 
 
-st.set_page_config(layout='wide')
 
-st.title('Meu Dashboard 🤩')
+st.title('Meu Dashboard🤩 - Objetivos de Desenvolvimento Sustentável (ODS)')
+st.header('Distribuição dos Recursos')
 
 st.sidebar.title('Configuração')
 
