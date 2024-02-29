@@ -4,6 +4,13 @@
 
 Oficina de dados para coleta e tratamento dos recursos disponíveis, em valores, a serem distribuídos entre os ODS. Criação de dashboard com a linguagem de programação python e publicação do app na Cloud.
 
+## Hands-On
+ - Criação de ambiente de desenvolvimento nas Nuvens.
+
+ - Construção de um dashboard com Python.
+
+ - Efetuar o build da aplicação no servidor Cloud.
+
 ## Pré-requisitos
 
 Serão necessários as seguintes ferramentas para execução do projeto:
@@ -88,11 +95,6 @@ A instalação deverá ser executada na seguinte ordem:
     Obs.: Na caixa de diálogo que será aberta, confirme para "**abrir no navegador**".
 
     Em seguida irá abrir o browser com a aplicação em execução.
-
-## Hands-on
- - Construção de um dashboard com Python.
-
- - Efetuar o build da aplicação no servidor Cloud.
 
 ## Conteúdo Extra
 ### Executar o selenium no Codespaces
