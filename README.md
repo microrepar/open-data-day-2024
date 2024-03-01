@@ -2,10 +2,12 @@
 ## Oficina
 ## Descrição
 
-Oficina de dados para coleta e tratamento dos recursos disponíveis, em valores, a serem distribuídos entre os Objetivos de Desenvolvimento Sustentáveis (ODS). Criação de dashboard com a linguagem de programação python e publicação do app na Cloud.
+Oficina de dados para coleta e tratamento dos recursos disponíveis, em valores, a serem distribuídos entre os Objetivos de Desenvolvimento Sustentáveis (ODS), apoiado pelas Nações Unidas. Criação de dashboard com a linguagem de programação python e publicação do app na Cloud. 
+
+Fonte dos dados: https://brasil.un.org/pt-br/sdgs
 
 ## Hands-On
- - Criação de ambiente de desenvolvimento nas Nuvens.
+ - Criação do ambiente de desenvolvimento nas Nuvens.
 
  - Construção de um dashboard com Python.
 
@@ -24,19 +26,19 @@ Serão necessários as seguintes ferramentas para execução do projeto:
 
  - **Git** - é um sistema de controle de versão moderno e amplamente utilizado, desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux. Ele é usado para controlar o histórico de alterações de arquivos, principalmente de projetos de desenvolvimento de software.
 
- - **GitHub** - é uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou de código aberto de qualquer lugar do mundo.
+ - **Conta no GitHub** - é uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou de código aberto de qualquer lugar do mundo.
 
 ## Instalação
 A instalação deverá ser executada na seguinte ordem:
- 1. Vscode - [Página de download aqui](https://code.visualstudio.com/download)
+ 1. Python - [Página de download aqui](https://www.python.org/)
 
- 2. Python - [Página de download aqui](https://www.python.org/)
+ 2. Git - [Página de download aqui](https://git-scm.com/downloads)
 
- 3. pipx - [Página de download aqui](https://packaging.python.org/pt-br/latest/guides/installing-stand-alone-command-line-tools/)
+ 3. Vscode - [Página de download aqui](https://code.visualstudio.com/download)
 
- 4. Poetry - [Página de download aqui](https://python-poetry.org/docs/#installation)
+ 4. pipx - [Página de download aqui](https://packaging.python.org/pt-br/latest/guides/installing-stand-alone-command-line-tools/)
 
- 5. Git - [Página de download aqui](https://git-scm.com/downloads)
+ 5. Poetry - [Página de download aqui](https://python-poetry.org/docs/#installation)
 
 ## Executar o projeto no pc
  1. Após configurado o ambiente e efetuado a instalação, agora é preciso fazer o clone do projeto no repositório remoto do GitHub.
@@ -170,7 +172,9 @@ A instalação deverá ser executada na seguinte ordem:
     }
 }
 ```
+
 ## Links úteis
+ - https://brasil.un.org/pt-br/sdgs
  - https://www.python.org/
  - https://pypi.org/
  - https://github.com/pypa/pipx
