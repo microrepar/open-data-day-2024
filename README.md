@@ -2,14 +2,14 @@
 ## Oficina
 ## Descrição
 
-Oficina de dados para coleta e tratamento dos recursos disponíveis, em valores, a serem distribuídos entre os ODS. Criação de dashboard com a linguagem de programação python e publicação do app na Cloud.
+Oficina de dados para coleta e tratamento dos recursos disponíveis, em valores, a serem distribuídos entre os Objetivos de Desenvolvimento Sustentáveis (ODS). Criação de dashboard com a linguagem de programação python e publicação do app na Cloud.
 
 ## Hands-On
  - Criação de ambiente de desenvolvimento nas Nuvens.
 
  - Construção de um dashboard com Python.
 
- - Efetuar o build da aplicação no servidor Cloud.
+ - Publicação do dashboard em um servidor Cloud.
 
 ## Pré-requisitos
 
@@ -22,6 +22,10 @@ Serão necessários as seguintes ferramentas para execução do projeto:
  
  - **Poetry** - é uma ferramenta para gerenciar dependências em projetos Python. Ele simplifica o gerenciamento de dependências e garante a reprodutibilidade do ambiente de desenvolvimento. Com o Poetry, é fácil adicionar, atualizar e remover dependências, bem como criar e gerenciar ambientes virtuais de desenvolvimento.
 
+ - **Git** - é um sistema de controle de versão moderno e amplamente utilizado, desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux. Ele é usado para controlar o histórico de alterações de arquivos, principalmente de projetos de desenvolvimento de software.
+
+ - **GitHub** - é uma plataforma de hospedagem de código-fonte que utiliza o sistema de controle de versão Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou de código aberto de qualquer lugar do mundo.
+
 ## Instalação
 A instalação deverá ser executada na seguinte ordem:
  1. Vscode - [Página de download aqui](https://code.visualstudio.com/download)
@@ -31,6 +35,8 @@ A instalação deverá ser executada na seguinte ordem:
  3. pipx - [Página de download aqui](https://packaging.python.org/pt-br/latest/guides/installing-stand-alone-command-line-tools/)
 
  4. Poetry - [Página de download aqui](https://python-poetry.org/docs/#installation)
+
+ 5. Git - [Página de download aqui](https://git-scm.com/downloads)
 
 ## Executar o projeto no pc
  1. Após configurado o ambiente e efetuado a instalação, agora é preciso fazer o clone do projeto no repositório remoto do GitHub.
@@ -167,14 +173,17 @@ A instalação deverá ser executada na seguinte ordem:
 ## Links úteis
  - https://www.python.org/
  - https://pypi.org/
- - https://developer.mozilla.org/en-US/docs/Web/XPath
- - https://www.w3schools.com/xml/xpath_intro.asp
- - https://python-poetry.org/
  - https://github.com/pypa/pipx
+ - https://python-poetry.org/
+ - https://docs.streamlit.io/
+ - https://plotly.com/python/
  - https://www.selenium.dev/
  - https://googlechromelabs.github.io/chrome-for-testing/
- - https://docs.streamlit.io/
+ - https://www.w3schools.com/xml/xpath_intro.asp
+ - https://developer.mozilla.org/en-US/docs/Web/XPath
  - https://docs.github.com/pt/codespaces
+ - https://git-scm.com/docs
+ - https://git-scm.com/book/pt-br/v2
 
 ## Licença
 MIT license
