@@ -180,6 +180,7 @@ A instalação deverá ser executada na seguinte ordem:
  - https://github.com/pypa/pipx
  - https://python-poetry.org/
  - https://docs.streamlit.io/
+ - https://streamlit.io/
  - https://plotly.com/python/
  - https://www.selenium.dev/
  - https://googlechromelabs.github.io/chrome-for-testing/
