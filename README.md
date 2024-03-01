@@ -110,9 +110,9 @@ A instalação deverá ser executada na seguinte ordem:
 
 ## Conteúdo Extra
 ### Executar o selenium no Codespaces
-1. Efetue a instalacao do google-chrome via terminal
+1. Efetue a instalação do google-chrome via terminal manualmente.
     - Acesse o site em https://googlechromelabs.github.io/chrome-for-testing/ e copie o link da última versão do browser.
-    - Baixe os binários:
+    - Baixe os binários da versão mais recente do google-chrome:
        ```bash
        sudo wget [url_do_binário]
        ```
