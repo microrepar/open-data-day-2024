@@ -155,7 +155,7 @@ A instalação deverá ser executada na seguinte ordem:
 
 5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
 
-Após o término da execução do notebook jupyter por completo, ele criará um arquivo com todos os dados extraídos e tabulados da página do site alvo no diretório `data\processed\nome-do-arquivo.pickle`.
+Após o término da execução do notebook jupyter, conterá no diretório `data\processed\nome-do-arquivo.pickle` um arquivo com todos os dados extraídos e tabulados da página do site alvo.
 
 
 ### Arquivo de configuração do VsCode `settings.json`
