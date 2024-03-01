@@ -43,29 +43,33 @@ A instalação deverá ser executada na seguinte ordem:
 ## Executar o projeto no pc
  1. Após configurado o ambiente e efetuado a instalação, agora é preciso fazer o clone do projeto no repositório remoto do GitHub.
     ```bash
-    git clone [endereco_do_repositorio]
+    git clone https://github.com/microrepar/open-data-day-2024.git
     ```
 
- 2. Instale as dependências do projeto executando o comando a seguir, com o terminal aberto na raiz do projeto.
+ 2. Entre no diretório o projeto clonado.
+    ```bash
+    cd open-data-day-2024
+    ```
+
+ 3. Instale as dependências do projeto executando o comando a seguir, com o terminal aberto na raiz do projeto.
     ```bash
     poetry install
     ```
 
- 3. Ative o ambiente virtual no qual foi instalado as dependências com o seguinte comando:
+ 4. Ative o ambiente virtual no qual foi instalado as dependências com o seguinte comando:
     ```bash
     poetry shell
     ```
 
- 4. Após ativo o ambiente virtual, execute a aplicação streamlit.
+ 5. Após ativo o ambiente virtual, execute a aplicação streamlit.
     ```bash
     streamlit run streamlit_app.py
     ```
 
     Em seguida irá abrir o browser com a aplicação em execução.
 
-
 ## Executar o projeto no Codespaces - GitHub
- 1. Faça um fork no GitHub do projeto `https://github.com/microrepar/open-data-day-2024`
+ 1. Faça um fork no GitHub do projeto https://github.com/microrepar/open-data-day-2024
 
  2. Crie um Codespaces do projeto que foi efetuado o fork.
 
