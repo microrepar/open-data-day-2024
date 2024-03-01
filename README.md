@@ -146,7 +146,7 @@ A instalação deverá ser executada na seguinte ordem:
    ...
    ```
 
-3. Altere o nome do arquivo `.env-exemplo` para `.env`.
+3. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
 
 4. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
     - Selecione a opção `instalar/habilitar extensões sugeridas`.
