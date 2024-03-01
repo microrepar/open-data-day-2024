@@ -151,6 +151,7 @@ A instalação deverá ser executada na seguinte ordem:
 4. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
     - Selecione a opção `instalar/habilitar extensões sugeridas`.
     - Em seguida selecione a opção `Python Environments...`
+    - Escolha a opção de ambiente virtual que contém o nome `open-data-day-2024...`
 
 5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
 
