@@ -116,17 +116,21 @@ A instalação deverá ser executada na seguinte ordem:
        ```bash
        sudo wget [url_do_binário]
        ```
-    - Descompacte o arquivo .zip:
+       Se tudo deu certo será baixado um arquivo com o nome `chrome-linux64.zip`.
+
+    - Descompacte o arquivo `chrome-linux64.zip`:
        ```bash
-       unzip [nome_do_arquivo.zip]
+       unzip chrome-linux64.zip
        ```
-    - Crie o diretório `/opt/google/`.
+       Ao término da descompactação surgira um novo diretório com o mesmo nome ´chrome-linux64´, ele deverá ser movido seguindo os passos adiante.
+
+    - Crie um diretório como o nome `/opt/google/`.
        ```bash
        sudo mkdir /opt/google
        ```
     - Mova o diretório descompactado para `/opt/google/chrome`.
        ```bash
-       sudo mv [diretorio_descompactado] /opt/google/chrome
+       sudo mv chrome-linux64 /opt/google/chrome
        ```
     - Crie um link simbólico para o binário do chrome e adicione em '/usr/bin/'.
        ```bash
@@ -148,7 +152,9 @@ A instalação deverá ser executada na seguinte ordem:
     - Selecione a opção `instalar/habilitar extensões sugeridas`.
     - Em seguida selecione a opção `Python Environments...`
 
-5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`.
+5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
+
+
 
 ### Arquivo de configuração do VsCode `settings.json`
 ```json
