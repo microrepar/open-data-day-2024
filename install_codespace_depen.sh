@@ -34,4 +34,7 @@ sudo mv chrome-linux64 /opt/google/chrome
 # Cria um link simbólico para o binário do Chrome em /usr/bin/
 sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
 
+sudo rm -rf chrome-linux64.zip
 sudo cp .env-exemplo .env
+
+
