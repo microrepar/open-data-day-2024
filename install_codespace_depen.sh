@@ -12,11 +12,13 @@ poetry --version
 # Criação do ambiente virtual e instalação das dependências do projeto
 poetry install
 
-# Ativa o ambiente virtual
-poetry shell
-
 # Baixa os binários da versão mais recente do Google Chrome
-sudo wget "https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.94/linux64/chrome-linux64.zip"
+wget https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.94/linux64/chrome-linux64.zip
+
+# Aguarda o download ser concluído
+while [ ! -f chrome-linux64.zip ]; do
+    sleep 1
+done
 
 # Descompacta o arquivo chrome-linux64.zip
 unzip chrome-linux64.zip
@@ -27,3 +29,6 @@ sudo mv chrome-linux64 /opt/google/chrome
 
 # Cria um link simbólico para o binário do Chrome em /usr/bin/
 sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
+
+# Ativa o ambiente virtual
+poetry shell
