@@ -136,6 +136,10 @@ A instalação deverá ser executada na seguinte ordem:
        ```bash
        sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
        ```
+    - Remova o arquivo .zip com os binários do google-chrome.
+       ```bash
+       sudo rm -rf chrome-linux64.zip
+       ```
 
 2. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
 
