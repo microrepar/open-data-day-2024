@@ -23,7 +23,7 @@ def get_page_driver(url: str) -> WebDriver:
         WebDriver: controladora da pagina carregada
     """
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     
     
