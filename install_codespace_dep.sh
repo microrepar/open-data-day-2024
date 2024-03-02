@@ -36,5 +36,3 @@ sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
 
 sudo rm -rf chrome-linux64.zip
 sudo cp .env-exemplo .env
-
-
