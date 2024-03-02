@@ -154,10 +154,22 @@ A instalação deverá ser executada na seguinte ordem:
     ```bash
     sudo chmod +x install_codespace_depen.sh
     ```
+ 
  2. Agora você pode executar o script com:
     ```bash
     source install_codespace_depen.sh
     ```
+ 
+ 3. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
+
+ 4. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
+    - Selecione a opção `instalar/habilitar extensões sugeridas`.
+    - Em seguida selecione a opção `Python Environments...`
+    - Escolha a opção de ambiente virtual que contém o nome `open-data-day-2024...`
+
+ 5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
+
+  Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
 
 ### Arquivo de configuração do VsCode `settings.json`
 ```json
