@@ -114,7 +114,7 @@ A instalação deverá ser executada na seguinte ordem:
     - Acesse o site em https://googlechromelabs.github.io/chrome-for-testing/ e copie o link da última versão do browser.
     - Baixe os binários da versão mais recente do google-chrome:
        ```bash
-       sudo wget [url_do_binário]
+       sudo wget "https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.94/linux64/chrome-linux64.zip"
        ```
        Se tudo deu certo será baixado um arquivo com o nome `chrome-linux64.zip`.
 
@@ -155,7 +155,17 @@ A instalação deverá ser executada na seguinte ordem:
 
 5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
 
-Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
+  Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
+
+### Script para configurar automaticamente o Codespace do GitHub
+ 1. Torne o arquivo executável com o seguinte comando:
+    ```bash
+    sudo chmod +x install_chrome.sh
+    ```
+ 2. Agora você pode executar o script com:
+    ```bash
+    ./install_chrome.sh
+    ```
 
 
 ### Arquivo de configuração do VsCode `settings.json`
