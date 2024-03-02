@@ -23,12 +23,13 @@ done
 # Descompacta o arquivo chrome-linux64.zip
 unzip chrome-linux64.zip
 
+while [ ! -d chrome-linux64 ]; do
+    sleep 1
+done
+
 # Move o diretório descompactado para /opt/google/chrome
 sudo mkdir /opt/google
 sudo mv chrome-linux64 /opt/google/chrome
 
 # Cria um link simbólico para o binário do Chrome em /usr/bin/
 sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
-
-# Ativa o ambiente virtual
-poetry shell
