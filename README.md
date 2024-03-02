@@ -137,36 +137,27 @@ A instalação deverá ser executada na seguinte ordem:
        sudo ln -s /opt/google/chrome/chrome /usr/bin/google-chrome
        ```
 
-2. Subistitua os options de configuração do webdriver, no arquivo `open_data_day_2024/web_page.py`, pelo trecho de código a seguir.
-   ```python
-   ...
-       options = Options()
-       options.add_argument("--headless")
-       options.add_argument("--no-sandbox")
-   ...
-   ```
+2. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
 
-3. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
-
-4. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
+3. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
     - Selecione a opção `instalar/habilitar extensões sugeridas`.
     - Em seguida selecione a opção `Python Environments...`
     - Escolha a opção de ambiente virtual que contém o nome `open-data-day-2024...`
 
-5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
+4. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
 
   Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
+
 
 ### Script para configurar automaticamente o Codespace do GitHub
  1. Torne o arquivo executável com o seguinte comando:
     ```bash
-    sudo chmod +x install_chrome.sh
+    sudo chmod +x install_codespace_depen.sh
     ```
  2. Agora você pode executar o script com:
     ```bash
-    ./install_chrome.sh
+    source install_codespace_depen.sh
     ```
-
 
 ### Arquivo de configuração do VsCode `settings.json`
 ```json
