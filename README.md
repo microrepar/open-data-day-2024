@@ -72,6 +72,8 @@ A instalação deverá ser executada na seguinte ordem:
  7. Implemente o seu dashboard no arquivo `streamlit_app.py` com a linguagem de programação python usando a documentação da API do streamlit em https://docs.streamlit.io/.
 
 ## Executar o projeto no Codespaces - GitHub
+### Configuração manual do ambiente de desenvovimento
+
  1. Faça um fork no GitHub do projeto https://github.com/microrepar/open-data-day-2024
 
  2. Crie um Codespaces do projeto que foi efetuado o fork.
@@ -113,7 +115,7 @@ A instalação deverá ser executada na seguinte ordem:
 
  9. Implemente o seu dashboard no arquivo `streamlit_app.py` com a linguagem de programação python usando a documentação da API do streamlit em https://docs.streamlit.io/.
 
- ## Script para configurar automaticamente o ambiente de desenvolvimento do Codespace - GitHub
+ ### Configuração via script do ambiente de desenvolvimento
  1. Faça um fork no GitHub do projeto https://github.com/microrepar/open-data-day-2024
 
  2. Acesse o repositório da sua conta e crie um Codespaces do projeto que foi efetuado o fork.
