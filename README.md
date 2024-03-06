@@ -50,30 +50,33 @@ A instalação deverá ser executada na seguinte ordem:
     ```bash
     cd open-data-day-2024
     ```
+ 3. Efetua uma cópia do arquivo `.env-exemplo` e renomeie o arquivo copiado para `.env`.
 
- 3. Instale as dependências do projeto executando o comando a seguir, com o terminal aberto na raiz do projeto.
+ 4. Instale as dependências do projeto executando o comando a seguir, com o terminal aberto na raiz do projeto.
     ```bash
     poetry install
     ```
 
- 4. Ative o ambiente virtual no qual foi instalado as dependências com o seguinte comando:
+ 5. Ative o ambiente virtual no qual foi instalado as dependências com o seguinte comando:
     ```bash
     poetry shell
     ```
 
- 5. Após ativo o ambiente virtual, execute a aplicação streamlit.
+ 6. Após ativo o ambiente virtual, execute a aplicação streamlit.
     ```bash
     streamlit run streamlit_app.py
     ```
 
     Em seguida irá abrir o browser com a aplicação em execução.
 
+ 7. Implemente o seu dashboard no arquivo `streamlit_app.py` com a linguagem de programação python usando a documentação da API do streamlit em https://docs.streamlit.io/.
+
 ## Executar o projeto no Codespaces - GitHub
  1. Faça um fork no GitHub do projeto https://github.com/microrepar/open-data-day-2024
 
  2. Crie um Codespaces do projeto que foi efetuado o fork.
 
- 3. Altere o nome do arquivo `.env-exemplo` para `.env`.
+ 3. Efetua uma cópia do arquivo `.env-exemplo` e renomeie o arquivo copiado para `.env`.
 
  4. Instale o gerenciador de intalação `pipx`:
     ```bash
@@ -108,8 +111,10 @@ A instalação deverá ser executada na seguinte ordem:
 
     Em seguida irá abrir o browser com a aplicação em execução.
 
+ 9. Implemente o seu dashboard no arquivo `streamlit_app.py` com a linguagem de programação python usando a documentação da API do streamlit em https://docs.streamlit.io/.
+
 ## Conteúdo Extra
-### Executar o selenium no Codespaces
+### Executar o selenium no Codespaces - GitHub
 1. Efetue a instalação do google-chrome via terminal manualmente.
     - Acesse o site em https://googlechromelabs.github.io/chrome-for-testing/ e copie o link da última versão do browser.
     - Baixe os binários da versão mais recente do google-chrome:
@@ -153,27 +158,42 @@ A instalação deverá ser executada na seguinte ordem:
   Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
 
 
-### Script para configurar automaticamente o Codespace do GitHub
- 1. Torne o arquivo executável com o seguinte comando:
+### Script para configurar automaticamente o Codespace - GitHub
+ 1. Faça um fork no GitHub do projeto https://github.com/microrepar/open-data-day-2024
+
+ 2. Acesse o repositório da sua conta e crie um Codespaces do projeto que foi efetuado o fork.
+
+ 3. Torne o arquivo executável com o seguinte comando:
     ```bash
     sudo chmod +x install_codespace_depen.sh
     ```
  
- 2. Agora você pode executar o script com:
+ 4. Agora você pode executar o script com:
     ```bash
     source install_codespace_depen.sh
     ```
  
- 3. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
+ 5. Efetue uma cópia do arquivo `.env-exemplo` e altere o nome da cópia para `.env`.
 
- 4. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
+ 6. Abra o notebook `coleta_tratamento_dados.ipynb` e selecione o kernel (interpretador python do ambiente virtual).
     - Selecione a opção `instalar/habilitar extensões sugeridas`.
     - Em seguida selecione a opção `Python Environments...`
     - Escolha a opção de ambiente virtual que contém o nome `open-data-day-2024...`
 
- 5. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
+ 7. Execute todo o notebook jupyter clicando no botão `>> Executar Tudo`, ele fara a extração dos dados do site dos ODS.
 
-  Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
+      Após o término da execução do notebook jupyter, conterá no diretório `data\processed\` o arquivo **.pickle** com todos os dados extraídos e tabulados da página do site alvo.
+
+ 8. Após ativo o ambiente virtual, execute a aplicação streamlit.
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+    
+    Obs.: Na caixa de diálogo que será aberta, confirme para "**abrir no navegador**".
+
+    Em seguida irá abrir o browser com a aplicação em execução.
+
+ 9. Implemente o seu dashboard no arquivo `streamlit_app.py` com a linguagem de programação python usando a documentação da API do streamlit em https://docs.streamlit.io/.
 
 ### Arquivo de configuração do VsCode `settings.json`
 ```json
